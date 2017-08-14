@@ -1,7 +1,6 @@
 //Counter code
 var button = document.getElementById("counter");
 button.onclick = function() {
-  //JS make us to Think in strange ways sometimes, we need to think about what to do when we receive the request response before we actually make the request  
   //Create  a request object to capture endpoint
   var request = new XMLHttpRequest();
   
